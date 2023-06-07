@@ -3,5 +3,11 @@
 @tailwind utilities;
 
 .radial-blue {
-    background: radial-gradient(lightyellow, skyblue);
+  background: radial-gradient(lightyellow, skyblue);
+}
+
+@layer utilities {
+  .section-min-height {
+    min-height: calc(100vh - 68px);
+  }
 }
